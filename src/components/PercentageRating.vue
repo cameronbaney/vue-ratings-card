@@ -14,8 +14,8 @@
 
     props: {
       stars: {
-        type: Number,
-        default: 0
+        type: String,
+        default: ''
       },
       percentage: {
         type: Number,
