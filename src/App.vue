@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-blue-100">
     <ratings-card class="max-w-xl" />
   </div>
 </template>
@@ -16,4 +16,11 @@ export default {
 </script>
 
 <style>
+#app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
 </style>
